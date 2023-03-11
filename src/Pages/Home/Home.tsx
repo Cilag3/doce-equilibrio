@@ -1,5 +1,11 @@
-import { Box } from '@mui/joy'
+import { Toolbar } from '@mui/material'
+import { Header } from '../../Components/Header'
 
 export function Home() {
-  return <Box>bla bla</Box>
+  return (
+    <>
+      <Header />
+      <Toolbar />
+    </>
+  )
 }
